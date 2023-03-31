@@ -35,7 +35,7 @@ def app():
                    if file is not None:
                       image = Image.open(file)
                   
-                   st.image(
+                      st.image(
                           image,
                           caption=f"You amazing image has shape",
                           use_column_width=True,
@@ -46,12 +46,6 @@ def app():
                       img=img/255.
                       if st.button('Compute Intensity'):
                         intensity=pred_and_plot(loaded_model,img)
-                        st.markdown("The intensity of your image in KNOTS is 👇")
-                        st.success(intensity)
-                 
-
-  
-
                         st.markdown("The intensity of your image in KNOTS is 👇")
                         st.success(intensity)
                  
