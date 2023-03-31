@@ -13,7 +13,8 @@ st.markdown(f'''
              background-size: cover
              }}
    </style>''',unsafe_allow_html=True)
-st.markdown('''<font size="4">This is a Cyclone Intensity Estimation app using Deep Learning with just one click.This app is developed by [Sparsh Jain](https://github.com/Sparshj8287). This app is created on [Streamlit](https://docs.streamlit.io/).</font>''',unsafe_allow_html=True)
+st.markdown('''<p style="font-family:sans-serif; color:white; font-size: 20px;">This is a Cyclone Intensity Estimation app using Deep Learning with just one click. This app is developed by <a href="https://github.com/Sparshj8287">Sparsh Jain</a>
+. This app is created on <a href="https://docs.streamlit.io/">Streamlit.</a></p>''',unsafe_allow_html=True)
 
 # Add all your application here
 app.add_app("Introduction to app", home.app)
