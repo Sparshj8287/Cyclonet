@@ -8,24 +8,23 @@ The CNN eliminates the need for usage of traditional methods for accurate center
 
 The Model will return the estimated Intensity of satellite cyclone image in KNOTS instantly.
 
+The Streamlit app is hosted on hugging face.
+``App Link:``[Link](https://huggingface.co/spaces/Sj8287/Cyclonet) 
+
 ## Dataset
 
 [Curated Dataset link](https://www.kaggle.com/datasets/sshubam/insat3d-infrared-raw-cyclone-images-20132021)
 
 ## Tech Stack Used
 
-Front-end: HTML , CSS, Bootstrap and JavaScript
-
-Back-end: PostgreSQL, Flask, psycopg2 and Python
-
-Machine-learning-pipeline: Tensorflow
+Tools : Tensorflow-keras,python,Streamlit,Hugging face
 
 
 ## Screenshots and reference Images
 
-``Home section:`` landing section of the website
+``Introduction to App:`` landing section of the App
 
-![Hero](https://user-images.githubusercontent.com/101162842/163724950-78dbfb1e-c414-4d2d-8a12-b7d4b2d4bdc6.jpg)
+![Hero]([https://user-images.githubusercontent.com/101162842/163724950-78dbfb1e-c414-4d2d-8a12-b7d4b2d4bdc6.jpg](https://github.com/Sparshj8287/Cyclonet/blob/master/Screenshots/Screenshot%202023-04-01%20at%2012.52.17%20AM.png))
 
 
 ``Form section:`` used to pass the image to the model which computes intensity and forwards input data to the archive via database
@@ -46,10 +45,3 @@ Machine-learning-pipeline: Tensorflow
 ``Submitted Image:`` Would be displayed as
 
 ![Image image](https://user-images.githubusercontent.com/101162842/163724965-9bdb6f09-1d3f-4d4b-be08-dfd7bfdcde03.jpg)
-
-
-## Links and References: 
--[Linkedin](https://www.linkedin.com/in/sparsh-jain-346249236/)
-
-- [GitHub](https://github.com/cycloneintensity/CrossKnotHacks-Cyclonet)
-- [Streamlit app](
