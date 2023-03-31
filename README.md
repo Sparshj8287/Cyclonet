@@ -9,6 +9,7 @@ The CNN eliminates the need for usage of traditional methods for accurate center
 The Model will return the estimated Intensity of satellite cyclone image in KNOTS instantly.
 
 The Streamlit app is hosted on hugging face platform and Streamlit platform.
+
 ``Hugging Face Link:`` [Link](https://huggingface.co/spaces/Sj8287/Cyclonet) 
 
 ``Streamlit Link:`` [Link](https://sparshj8287-crossknothacks-cyclonet-app-w8ovqw.streamlit.app/)
